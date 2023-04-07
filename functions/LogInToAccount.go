@@ -15,6 +15,8 @@ type User struct {
 
 var Users = []User{
 	{UserName: "Shashwat", PIN: "5522", AccountNo: "555", Balance: "5500"},
+	{UserName: "test1", PIN: "1234", AccountNo: "567", Balance: "65000"},
+	{UserName: "test2", PIN: "1111", AccountNo: "456", Balance: "5000"},
 }
 
 func LogInToAccount() (User, error) {
